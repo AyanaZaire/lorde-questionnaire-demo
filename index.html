@@ -6,6 +6,43 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <h1>The Audre Lorde Questionnaire to Oneself</h1>
+        <p><a href="https://divyavictor.com/the-audre-lorde-questionnaire-to-oneself/">Audre Lorde Questionnaire to Oneself</a> was adapted from “The Transformation of Silence into Language and Action,” collected in The Cancer Journals. This resource was created by Divya Victor for students of her Creative Writing courses at Nanyang Technological University in January 2016. Fill out this form daily to check-in with the “erotic yes” inside your work.</p>
+        <form action="">
+            <fieldset>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="date-time">Date & Time</label>
+                <input type="datetime-local" id="date-time">
+                <label for="location">Location</label>
+                <input type="text" id="location">
+            </fieldset>
+            <fieldset>
+                <label for="words">What are the words you do not have yet? [Or, “for what do you not have words, yet?”]</label>
+                <textarea id="words" cols="30" rows="5"></textarea>
+                <label for="need">What do you need to say? [List as many things as necessary]</label>
+                <textarea id="need" cols="30" rows="5"></textarea>
+                <label for="tyrannies">“What are the tyrannies you swallow day by day and attempt to make your own, until you will sicken and die of them, still in silence?” [List as many as necessary today. Then write a new list tomorrow. And the day after.]</label>
+                <textarea id="tyrannies" cols="30" rows="5"></textarea>
+                <label for="truth">If we have been “socialized to respect fear more than our own needs for language and definition”, ask yourself: “What’s the worst that could happen to me if I tell this truth?”* [So, answer this today. And everyday.]</label>
+                <textarea id="truth" cols="30" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <p>Current Mood</p>
+                <label for="calm"><input type="checkbox" id="calm"> Calm</label>
+                <label for="happy"><input type="checkbox" id="happy"> Happy</label>
+                <label for="sad"><input type="checkbox" id="sad"> Sad</label>
+                <label for="other"><input type="checkbox" id="other"> Other</label>
+
+                <label for="erotic-select">Is your current work engaging your <a href="https://stilluntitledproject.files.wordpress.com/2014/11/audre-lorde-sister-outsider-the-uses-of-the-erotic-1978.pdf">"Erotic Yes"</a>?</label>
+                <select name="erotic" id="erotic-select">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <label for="elaboration">Optional Elaboration</label>
+                <textarea id="elaboration" cols="30" rows="5"></textarea>
+            </fieldset>
+            <input type="submit" value="Submit Questionnaire">
+        </form>
     </body>
 </html>
