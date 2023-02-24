@@ -1,0 +1,65 @@
+body {
+    background-color: #fff;
+    color: #000;
+    background-image: url(lorde-background.png);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.heading {
+    margin: 1em auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 0 20px 0;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 20px;
+    padding: 15px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.inline {
+    width: unset;
+    margin: 0 8px 0 0;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+fieldset {
+  border: none;  
+  padding: 2em;
+  border-bottom: 1px solid #000;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input[type=submit] {
+    display: block;
+    color: #000;
+    margin: 1em auto;
+    font-size: 17px;
+    max-width: 400px;
+}
